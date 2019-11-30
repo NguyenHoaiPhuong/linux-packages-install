@@ -36,5 +36,8 @@ sudo gpasswd -a $USER docker
 # Check docker by running below command
 docker run hello-world
 
-# in order to run docker, add below line into ~/.profile
-# export DOCKER_HOST=127.0.0.1:2375
+# in order to run docker, add below line into ~/.profile ???????
+# echo "export DOCKER_HOST=127.0.0.1:2375" >> ~/.profile
+
+# Follow below link for post process after installing docker
+# https://docs.docker.com/install/linux/linux-postinstall/
