@@ -1,2 +1,3 @@
-curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
-sudo apt-get install -y nodejs
+sudo apt update
+sudo apt install snapd
+sudo snap install node --channel=13/stable --classic
