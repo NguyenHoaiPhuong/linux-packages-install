@@ -1,0 +1,1 @@
+sudo npm install -g @angular/cli --scripts-prepend-node-path
