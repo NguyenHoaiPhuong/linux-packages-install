@@ -33,6 +33,8 @@ sudo groupadd docker
 # Add the connected user "$USER" to the docker group. Change the user name to match your preferred user if you do not want to use your current user
 sudo gpasswd -a $USER docker
 
+# sudo usermod -aG docker $USER
+
 # Check docker by running below command
 docker run hello-world
 
